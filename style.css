@@ -8,7 +8,8 @@ body{
     /*background: rgba(0,0,0,0.4);*/
     color: white;
     text-align: center;
-    margin: auto
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
 }
 
 .resume{
@@ -48,10 +49,44 @@ ul{
 }
 .links li a{
   color: white;
-  text-decoration: none;
   font-size: 60px;
   transition: all ease-in-out 250ms;
 }
 .links li a:hover{
     color: #b9b9b9;
 }
+
+
+
+.modals ol{
+    position:fixed;
+    bottom: 50px;
+    left: 50px;
+    display: flex;
+    list-style: none;
+    color: white;
+    border: 3px solid white;
+    padding: 20px 0px 20px;
+}
+.modals a{
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: white;
+    padding: 21px;
+}
+.modals a:hover{
+    background-color: white;
+    color: black;
+}
+.modals .pop{
+    display:inline;
+    position:fixed;
+    top: 50%;
+    visibility: hidden;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 5px;
+    color: black;
+    text-align: center;
+}
+.modals li:hover .pop{visibility: visible;}
