@@ -56,8 +56,6 @@ ul{
     color: #b9b9b9;
 }
 
-
-
 .modals ol{
     position:fixed;
     bottom: 50px;
@@ -67,6 +65,7 @@ ul{
     color: white;
     border: 3px solid white;
     padding: 20px 0px 20px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 .modals a{
     font-weight: 600;
@@ -81,13 +80,15 @@ ul{
     color: black;
 }
 .modals .pop{
-    display:inline;
-    position:fixed;
-    top: 50%;
+    position: fixed;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%);
+    max-width: 300px;
     visibility: hidden;
     background: rgba(0, 0, 0, 0.4);
-    padding: 5px;
-    color: black;
+    padding: 50px;
+    color: white;
     text-align: center;
 }
 .modals li:hover .pop{visibility: visible;}
