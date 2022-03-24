@@ -1,12 +1,11 @@
-/*let button = document.getElementById("spotifyLink");
-button.addEventListener("change", () => {
-	document.getElementById("spotify").style.visibility = visible;
-	});
-}*/
-
-const element = document.getElementById("fa fa-spotify");
-element.addEventListener("click", myFunction);
-
-function myFunction() {
-  document.querySelector("spotify").style.visiiblity = hidden;;
+window.onload=function(){
+    console.log("loaded")
+    let button = document.getElementById("spotifyLink");
+    let playlist = document.getElementById("spotify");
+    button.addEventListener("click", () => {
+        if(playlist.style.visibility == 'visible')
+        {playlist.style.visibility = 'hidden';}
+        else
+        {playlist.style.visibility = 'visible';}
+    });
 }
