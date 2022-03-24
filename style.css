@@ -112,5 +112,6 @@ ul{
     padding: 50px;
     color: white;
     text-align: center;
+    border-radius:12px;
 }
 .modals li:hover .pop{visibility: visible;}
