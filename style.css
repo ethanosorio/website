@@ -54,7 +54,6 @@ body{
     color: black;
 }
 
-
 .spotify{
     position: fixed;
     top: 25%;
@@ -62,8 +61,8 @@ body{
     transform: translate(-50%);
     visibility: hidden;
     border-radius:12px;
-    width: 400px;
-    height: 300px;
+    width: 500px;
+    height: 400px;
 }
 .links{
     position: absolute;
@@ -122,12 +121,13 @@ ul{
     top: 25%;
     left: 50%;
     transform: translate(-50%);
-    max-width: 300px;
+    max-width: 500px;
     visibility: hidden;
     background: rgba(0, 0, 0, 0.4);
     padding: 50px;
     color: white;
-    text-align: center;
+    text-align: left;
     border-radius:12px;
+    font-weight: 200;
 }
 .modals li:hover .pop{visibility: visible;}
