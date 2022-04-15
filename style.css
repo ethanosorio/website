@@ -118,13 +118,13 @@ ul{
 }
 .modals .pop{
     position: fixed;
-    top: 25%;
+    top: 15%;
     left: 50%;
     transform: translate(-50%);
-    max-width: 500px;
+    max-width: 600px;
     visibility: hidden;
     background: rgba(0, 0, 0, 0.4);
-    padding: 50px;
+    padding: 25px;
     color: white;
     text-align: left;
     border-radius:12px;
